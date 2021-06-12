@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIAN</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body class="body-hide">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <picture class="logo">
+                        <a href="#">
+                            <img src="images/logo.png" alt="logo" /></a>
+                    </picture>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <div class="header__menu">
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a class="menu__link" href="../">HOME</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="../about.html">About</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="../#home-portfolio">Portfolio</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="../blog.html">BLOG</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="../contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="menu__search">
+                            <form>
+                                <input type="search" id="search" class="search-input" placeholder="search">
+                                <a id="search-btn" class="search-btn _icon-search"></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="home" id="home">
+                <div class="home__slider swiper-container">
+                    <div class="home__slider-wrapper swiper-wrapper">
+                        <div class="home__slider-slide swiper-slide">
+                            <div class="home__slider-bg home__slider-bg-1">
+                                <div class="home__slider-content">
+                                    <h1 class="home__slider-title">
+                                        Design & Branding
+                                    </h1>
+                                    <p class="home__slider-text">
+                                        We Deliver Quality Results
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__slider-slide swiper-slide">
+                            <div class="home__slider-bg home__slider-bg-2 ">
+                                <div class="home__slider-content">
+                                    <h1 class="home__slider-title">
+                                        Lian Creative Agency
+                                    </h1>
+                                    <p class="home__slider-text">
+                                        Minimal Freelance home-Portfolio
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </section>
+            <section class="home-portfolio" id="home-portfolio">
+                <div class="container">
+                    <hr />
+                    <div class="home-portfolio-tabs tabs">
+                        <div class="home-portfolio-tabs__nav tabs__nav">
+                            <div class="home-portfolio-tabs__button tabs__button">
+                                <button class="home-portfolio-tabs__nav-btn tabs__nav-btn active" type="button"
+                                    data-tab="#tab_1">
+                                    All
+                                </button>
+                            </div>
+                            <div class="home-portfolio-tabs__button tabs__button">
+                                <button class="home-portfolio-tabs__nav-btn tabs__nav-btn" type="button"
+                                    data-tab="#tab_2">
+                                    Logo
+                                </button>
+                            </div>
+                            <div class="home-portfolio-tabs__button tabs__button">
+                                <button class="home-portfolio-tabs__nav-btn tabs__nav-btn" type="button"
+                                    data-tab="#tab_3">
+                                    Mobile App
+                                </button>
+                            </div>
+                            <div class="home-portfolio-tabs__button tabs__button">
+                                <button class="home-portfolio-tabs__nav-btn tabs__nav-btn" type="button"
+                                    data-tab="#tab_4">
+                                    WordPress
+                                </button>
+                            </div>
+                            <div class="home-portfolio-tabs__button tabs__button">
+                                <button class="home-portfolio-tabs__nav-btn tabs__nav-btn" type="button"
+                                    data-tab="#tab_5">
+                                    Web Design
+                                </button>
+                            </div>
+                            <div class="home-portfolio-tabs__button tabs__button">
+                                <button class="home-portfolio-tabs__nav-btn tabs__nav-btn" type="button"
+                                    data-tab="#tab_6">
+                                    UI/IX
+                                </button>
+                            </div>
+                            <div class="home-portfolio-tabs__button tabs__button">
+                                <button class="home-portfolio-tabs__nav-btn tabs__nav-btn" type="button"
+                                    data-tab="#tab_7">
+                                    Branding
+                                </button>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="home-portfolio-tabs__content tabs__content">
+                            <div class="home-portfolio-tabs__item tabs__item active" id="tab_1">
+                                <div class="home-portfolio__content">
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-1" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-1.jpg" alt="modal-1" />
+                                            </picture>
+                                        </a>
+                                        <a href="#modal-2" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-2.jpg" alt="modal-2" />
+                                            </picture>
+                                        </a>
+                                        <a href="#modal-3" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-3.jpg" alt="modal-3" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-4" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-4.jpg" alt="modal-4" />
+                                            </picture>
+                                        </a>
+                                        <a href="#modal-5" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-5.jpg" alt="modal-5" />
+                                            </picture>
+                                        </a>
+                                        <a href="#modal-6" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-6.jpg" alt="modal-6" />
+                                            </picture>
+                                        </a>
+                                        <a href="#modal-7" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-7.jpg" alt="modal-7" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-8" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-8.jpg" alt="modal-8" />
+                                            </picture>
+                                        </a>
+                                        <a href="#modal-9" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-9.jpg" alt="modal-9" />
+                                            </picture>
+                                        </a>
+                                        <a href="#modal-10" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-10.jpg" alt="modal-10" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home-portfolio-tabs__item tabs__item" id="tab_2">
+                                <div class="home-portfolio__content">
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-1" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-1.jpg" alt="modal-1" />
+                                            </picture>
+                                        </a>
+                                        <a href="#modal-2" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-2.jpg" alt="modal-2" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-4" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-4.jpg" alt="modal-4" />
+                                            </picture>
+                                        </a>
+                                        <a href="#modal-7" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-7.jpg" alt="modal-7" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-8" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-8.jpg" alt="modal-8" />
+                                            </picture>
+                                        </a>
+                                        <a href="#modal-9" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-9.jpg" alt="modal-9" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home-portfolio-tabs__item tabs__item" id="tab_3">
+                                <div class="home-portfolio__content">
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-3" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-3.jpg" alt="modal-3" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-4" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-4.jpg" alt="modal-4" />
+                                            </picture>
+                                        </a>
+                                        <a href="#modal-7" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-7.jpg" alt="modal-7" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-10" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-10.jpg" alt="modal-10" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home-portfolio-tabs__item tabs__item" id="tab_4">
+                                <div class="home-portfolio__content">
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-9" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-9.jpg" alt="modal-9" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-8" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-8.jpg" alt="modal-8" />
+                                            </picture>
+                                        </a>
+                                        <a href="#modal-4" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-4.jpg" alt="modal-4" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-5" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-5.jpg" alt="modal-5" />
+                                            </picture>
+                                        </a>
+                                        <a href="#modal-2" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-2.jpg" alt="modal-2" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-3" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-3.jpg" alt="modal-3" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home-portfolio-tabs__item tabs__item" id="tab_5">
+                                <div class="home-portfolio__content">
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-8" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-8.jpg" alt="modal-8" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-10" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-10.jpg" alt="modal-10" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home-portfolio-tabs__item tabs__item" id="tab_6">
+                                <div class="home-portfolio__content">
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-5" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-5.jpg" alt="modal-5" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-1" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-1.jpg" alt="modal-1" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-9" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-9.jpg" alt="modal-9" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home-portfolio-tabs__item tabs__item" id="tab_7">
+                                <div class="home-portfolio__content">
+                                    <div class="home-portfolio__content-column">
+                                        <a href="#modal-6" class="js-modal-open">
+                                            <picture class="home-portfolio__content-item">
+                                                <img src="images/content/item-6.jpg" alt="modal-6" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal modal--l" id="modal-1">
+                        <div class="modal__dialog">
+                            <div class="modal__dialog-header">
+                                <div class="modal__dialog-header-content">
+                                    <h3 class="modal__dialog-header-title">Lorem ipsum</h3>
+                                </div>
+                                <div class="modal__dialog-header-close">
+                                    <button
+                                        class="js-modal-close modal__dialog-header-close-btn"><span>&times;</span></button>
+                                </div>
+                            </div>
+                            <div class="modal__dialog-body">
+                                <img src="images/content/item-1.jpg" alt="" />
+                                <div class="modal__dialog-body-text">Lorem ipsum dolor sit amet consLorem ipsum
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis
+                                    repellendus recusandae dolores a reiciendis delectus enim harum, aspernatur soluta,
+                                    necessitatibus deleniti obcaecati eius libero, ullam dolorem quam quidem! Nulla vel
+                                    tempore rem? Praesentium minus libero ea voluptatem quo facilis!
+                                    .</div>
+                            </div>
+                            <div class="modal__dialog-footer">
+                                <button onClick='location.href="portfolio.html"'
+                                    class="js-modal-close modal__dialog-footer-close-btn">more details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal modal--l" id="modal-2">
+                        <div class="modal__dialog">
+                            <div class="modal__dialog-header">
+                                <div class="modal__dialog-header-content">
+                                    <h3 class="modal__dialog-header-title">Lorem ipsum</h3>
+                                </div>
+                                <div class="modal__dialog-header-close">
+                                    <button
+                                        class="js-modal-close modal__dialog-header-close-btn"><span>&times;</span></button>
+                                </div>
+                            </div>
+                            <div class="modal__dialog-body">
+                                <img src="images/content/item-2.jpg" alt="" />
+                                <div class="modal__dialog-body-text">Lorem ipsum dolor sit amet consLorem ipsum
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis
+                                    repellendus recusandae dolores a reiciendis delectus enim harum, aspernatur soluta,
+                                    necessitatibus deleniti obcaecati eius libero, ullam dolorem quam quidem! Nulla vel
+                                    tempore rem? Praesentium minus libero ea voluptatem quo facilis!
+                                    .</div>
+                            </div>
+                            <div class="modal__dialog-footer">
+                                <button onClick='location.href="portfolio.html"'
+                                    class="js-modal-close modal__dialog-footer-close-btn">more details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal modal--l" id="modal-3">
+                        <div class="modal__dialog">
+                            <div class="modal__dialog-header">
+                                <div class="modal__dialog-header-content">
+                                    <h3 class="modal__dialog-header-title">Lorem ipsum</h3>
+                                </div>
+                                <div class="modal__dialog-header-close">
+                                    <button
+                                        class="js-modal-close modal__dialog-header-close-btn"><span>&times;</span></button>
+                                </div>
+                            </div>
+                            <div class="modal__dialog-body">
+                                <img src="images/content/item-3.jpg" alt="" />
+                                <div class="modal__dialog-body-text">Lorem ipsum dolor sit amet consLorem ipsum
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis
+                                    repellendus recusandae dolores a reiciendis delectus enim harum, aspernatur soluta,
+                                    necessitatibus deleniti obcaecati eius libero, ullam dolorem quam quidem! Nulla vel
+                                    tempore rem? Praesentium minus libero ea voluptatem quo facilis!
+                                    .</div>
+                            </div>
+                            <div class="modal__dialog-footer">
+                                <button onClick='location.href="portfolio.html"'
+                                    class="js-modal-close modal__dialog-footer-close-btn">more details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal modal--l" id="modal-4">
+                        <div class="modal__dialog">
+                            <div class="modal__dialog-header">
+                                <div class="modal__dialog-header-content">
+                                    <h3 class="modal__dialog-header-title">Lorem ipsum</h3>
+                                </div>
+                                <div class="modal__dialog-header-close">
+                                    <button
+                                        class="js-modal-close modal__dialog-header-close-btn"><span>&times;</span></button>
+                                </div>
+                            </div>
+                            <div class="modal__dialog-body">
+                                <img src="images/content/item-4.jpg" alt="" />
+                                <div class="modal__dialog-body-text">Lorem ipsum dolor sit amet consLorem ipsum
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis
+                                    repellendus recusandae dolores a reiciendis delectus enim harum, aspernatur soluta,
+                                    necessitatibus deleniti obcaecati eius libero, ullam dolorem quam quidem! Nulla vel
+                                    tempore rem? Praesentium minus libero ea voluptatem quo facilis!
+                                    .</div>
+                            </div>
+                            <div class="modal__dialog-footer">
+                                <button onClick='location.href="portfolio.html"'
+                                    class="js-modal-close modal__dialog-footer-close-btn">more details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal modal--l" id="modal-5">
+                        <div class="modal__dialog">
+                            <div class="modal__dialog-header">
+                                <div class="modal__dialog-header-content">
+                                    <h3 class="modal__dialog-header-title">Lorem ipsum</h3>
+                                </div>
+                                <div class="modal__dialog-header-close">
+                                    <button
+                                        class="js-modal-close modal__dialog-header-close-btn"><span>&times;</span></button>
+                                </div>
+                            </div>
+                            <div class="modal__dialog-body">
+                                <img src="images/content/item-5.jpg" alt="" />
+                                <div class="modal__dialog-body-text">Lorem ipsum dolor sit amet consLorem ipsum
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis
+                                    repellendus recusandae dolores a reiciendis delectus enim harum, aspernatur soluta,
+                                    necessitatibus deleniti obcaecati eius libero, ullam dolorem quam quidem! Nulla vel
+                                    tempore rem? Praesentium minus libero ea voluptatem quo facilis!
+                                    .</div>
+                            </div>
+                            <div class="modal__dialog-footer">
+                                <button onClick='location.href="portfolio.html"'
+                                    class="js-modal-close modal__dialog-footer-close-btn">more details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal modal--l" id="modal-6">
+                        <div class="modal__dialog">
+                            <div class="modal__dialog-header">
+                                <div class="modal__dialog-header-content">
+                                    <h3 class="modal__dialog-header-title">Lorem ipsum</h3>
+                                </div>
+                                <div class="modal__dialog-header-close">
+                                    <button
+                                        class="js-modal-close modal__dialog-header-close-btn"><span>&times;</span></button>
+                                </div>
+                            </div>
+                            <div class="modal__dialog-body">
+                                <img src="images/content/item-3.jpg" alt="" />
+                                <div class="modal__dialog-body-text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consLorem ipsum
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis
+                                        tempore rem? Praesentium minus libero ea voluptatem quo facilis!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal__dialog-footer">
+                                <button onClick='location.href="portfolio.html"'
+                                    class="js-modal-close modal__dialog-footer-close-btn">more details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal modal--l" id="modal-7">
+                        <div class="modal__dialog">
+                            <div class="modal__dialog-header">
+                                <div class="modal__dialog-header-content">
+                                    <h3 class="modal__dialog-header-title">Lorem ipsum</h3>
+                                </div>
+                                <div class="modal__dialog-header-close">
+                                    <button
+                                        class="js-modal-close modal__dialog-header-close-btn"><span>&times;</span></button>
+                                </div>
+                            </div>
+                            <div class="modal__dialog-body">
+                                <img src="images/content/item-7.jpg" alt="" />
+                                <div class="modal__dialog-body-text">Lorem ipsum dolor sit amet consLorem ipsum
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis
+                                    repellendus recusandae dolores a reiciendis delectus enim harum, aspernatur soluta,
+                                    necessitatibus deleniti obcaecati eius libero, ullam dolorem quam quidem! Nulla vel
+                                    tempore rem? Praesentium minus libero ea voluptatem quo facilis!
+                                    .</div>
+                            </div>
+                            <div class="modal__dialog-footer">
+                                <button onClick='location.href="portfolio.html"'
+                                    class="js-modal-close modal__dialog-footer-close-btn">more details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal modal--l" id="modal-8">
+                        <div class="modal__dialog">
+                            <div class="modal__dialog-header">
+                                <div class="modal__dialog-header-content">
+                                    <h3 class="modal__dialog-header-title">Lorem ipsum</h3>
+                                </div>
+                                <div class="modal__dialog-header-close">
+                                    <button
+                                        class="js-modal-close modal__dialog-header-close-btn"><span>&times;</span></button>
+                                </div>
+                            </div>
+                            <div class="modal__dialog-body">
+                                <img src="images/content/item-8.jpg" alt="" />
+                                <div class="modal__dialog-body-text">Lorem ipsum dolor sit amet consLorem ipsum
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis
+                                    repellendus recusandae dolores a reiciendis delectus enim harum, aspernatur soluta,
+                                    necessitatibus deleniti obcaecati eius libero, ullam dolorem quam quidem! Nulla vel
+                                    tempore rem? Praesentium minus libero ea voluptatem quo facilis!
+                                    .</div>
+                            </div>
+                            <div class="modal__dialog-footer">
+                                <button onClick='location.href="portfolio.html"'
+                                    class="js-modal-close modal__dialog-footer-close-btn">more details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal modal--l" id="modal-9">
+                        <div class="modal__dialog">
+                            <div class="modal__dialog-header">
+                                <div class="modal__dialog-header-content">
+                                    <h3 class="modal__dialog-header-title">Lorem ipsum</h3>
+                                </div>
+                                <div class="modal__dialog-header-close">
+                                    <button
+                                        class="js-modal-close modal__dialog-header-close-btn"><span>&times;</span></button>
+                                </div>
+                            </div>
+                            <div class="modal__dialog-body">
+                                <img src="images/content/item-9.jpg" alt="" />
+                                <div class="modal__dialog-body-text">Lorem ipsum dolor sit amet consLorem ipsum
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis
+                                    repellendus recusandae dolores a reiciendis delectus enim harum, aspernatur soluta,
+                                    necessitatibus deleniti obcaecati eius libero, ullam dolorem quam quidem! Nulla vel
+                                    tempore rem? Praesentium minus libero ea voluptatem quo facilis reiciendis delectus
+                                    enim harum, aspernatur soluta</div>
+                            </div>
+                            <div class="modal__dialog-footer">
+                                <button onClick='location.href="portfolio.html"'
+                                    class="js-modal-close modal__dialog-footer-close-btn">more details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal modal--l" id="modal-10">
+                        <div class="modal__dialog">
+                            <div class="modal__dialog-header">
+                                <div class="modal__dialog-header-content">
+                                    <h3 class="modal__dialog-header-title">Lorem ipsum</h3>
+                                </div>
+                                <div class="modal__dialog-header-close">
+                                    <button
+                                        class="js-modal-close modal__dialog-header-close-btn"><span>&times;</span></button>
+                                </div>
+                            </div>
+                            <div class="modal__dialog-body">
+                                <img src="images/content/item-10.jpg" alt="" />
+                                <div class="modal__dialog-body-text">
+                                    Lorem ipsum dolor sit amet consLorem ipsum
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis
+                                    repellendus recusandae dolores a reiciendis delectus enim harum, aspernatur
+                                    soluta,
+                                    necessitatibus deleniti obcaecati eius libero, ullam dolorem quam quidem! Nulla
+                                    vel
+                                </div>
+                            </div>
+                            <div class="modal__dialog-footer">
+                                <button onClick='location.href="portfolio.html"'
+                                    class="js-modal-close modal__dialog-footer-close-btn">more details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <a href="#"> <img src="images/logo.png" alt="logo" /></a>
+            <hr />
+            <nav class="footer__social">
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a class="footer__social-link _icon-facebook" href="#"></a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link _icon-gplus" href="#"></a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link _icon-twitter" href="#"></a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link _icon-linkedin" href="#"></a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link _icon-dribbble" href="#"></a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link _icon-pinterest" href="#"></a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link _icon-instagram" href="#"></a>
+                    </li>
+                </ul>
+            </nav>
+            <hr />
+            <div class="footer__copyright">
+                © 2016 <span>Mulitix Theme</span> by ThemeForces. All Rights
+                Reserved.
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
